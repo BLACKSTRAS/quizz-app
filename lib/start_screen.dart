@@ -29,7 +29,7 @@ class StartScreen extends StatelessWidget {
                     builder: (context) => const QuestionsScreen()),
               );
             },
-            icon: Icon(
+            icon: const Icon(
               Icons.arrow_right_alt,
               color: Colors.white,
             ),
